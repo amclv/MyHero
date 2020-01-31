@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A78B18F23E3F20E0085C872 /* HeroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78B18E23E3F20E0085C872 /* HeroController.swift */; };
+		1A78B19123E3F5800085C872 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78B19023E3F5800085C872 /* CoreDataStack.swift */; };
 		1AFDD26C23E3E120008654B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD26B23E3E120008654B6 /* AppDelegate.swift */; };
 		1AFDD26E23E3E120008654B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD26D23E3E120008654B6 /* SceneDelegate.swift */; };
-		1AFDD27023E3E120008654B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD26F23E3E120008654B6 /* ViewController.swift */; };
 		1AFDD27323E3E120008654B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDD27123E3E120008654B6 /* Main.storyboard */; };
 		1AFDD27523E3E121008654B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDD27423E3E121008654B6 /* Assets.xcassets */; };
 		1AFDD27823E3E121008654B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDD27623E3E121008654B6 /* LaunchScreen.storyboard */; };
+		1AFDD28823E3EA0A008654B6 /* SuperHeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD28723E3EA0A008654B6 /* SuperHeroDetailViewController.swift */; };
+		1AFDD28A23E3EA49008654B6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD28923E3EA48008654B6 /* NetworkService.swift */; };
+		1AFDD28D23E3EDC8008654B6 /* MyHero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD28B23E3EDC8008654B6 /* MyHero.xcdatamodeld */; };
+		1AFDD29123E3F083008654B6 /* HeroRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDD29023E3F083008654B6 /* HeroRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A78B18E23E3F20E0085C872 /* HeroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroController.swift; sourceTree = "<group>"; };
+		1A78B19023E3F5800085C872 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1AFDD26823E3E120008654B6 /* MyHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFDD26B23E3E120008654B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFDD26D23E3E120008654B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AFDD26F23E3E120008654B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AFDD27223E3E120008654B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AFDD27423E3E121008654B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFDD27723E3E121008654B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFDD27923E3E121008654B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFDD28723E3EA0A008654B6 /* SuperHeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailViewController.swift; sourceTree = "<group>"; };
+		1AFDD28923E3EA48008654B6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1AFDD28C23E3EDC8008654B6 /* MyHero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHero.xcdatamodel; sourceTree = "<group>"; };
+		1AFDD29023E3F083008654B6 /* HeroRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,92 @@
 		1AFDD26A23E3E120008654B6 /* MyHero */ = {
 			isa = PBXGroup;
 			children = (
-				1AFDD26B23E3E120008654B6 /* AppDelegate.swift */,
-				1AFDD26D23E3E120008654B6 /* SceneDelegate.swift */,
-				1AFDD26F23E3E120008654B6 /* ViewController.swift */,
-				1AFDD27123E3E120008654B6 /* Main.storyboard */,
-				1AFDD27423E3E121008654B6 /* Assets.xcassets */,
-				1AFDD27623E3E121008654B6 /* LaunchScreen.storyboard */,
-				1AFDD27923E3E121008654B6 /* Info.plist */,
+				1AFDD28623E3E9B9008654B6 /* Model */,
+				1AFDD28323E3E9A5008654B6 /* Controllers */,
+				1AFDD27F23E3E970008654B6 /* Views */,
+				1AFDD28123E3E985008654B6 /* Resources */,
 			);
 			path = MyHero;
+			sourceTree = "<group>";
+		};
+		1AFDD27F23E3E970008654B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28223E3E99E008654B6 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AFDD28123E3E985008654B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD26B23E3E120008654B6 /* AppDelegate.swift */,
+				1AFDD26D23E3E120008654B6 /* SceneDelegate.swift */,
+				1AFDD27423E3E121008654B6 /* Assets.xcassets */,
+				1AFDD27923E3E121008654B6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AFDD28223E3E99E008654B6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD27123E3E120008654B6 /* Main.storyboard */,
+				1AFDD27623E3E121008654B6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1AFDD28323E3E9A5008654B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28523E3E9B3008654B6 /* View Controllers */,
+				1AFDD28423E3E9AC008654B6 /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1AFDD28423E3E9AC008654B6 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A78B18E23E3F20E0085C872 /* HeroController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		1AFDD28523E3E9B3008654B6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28723E3EA0A008654B6 /* SuperHeroDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1AFDD28623E3E9B9008654B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28F23E3F022008654B6 /* CoreData */,
+				1AFDD28E23E3EFCE008654B6 /* NetworkService */,
+				1AFDD29023E3F083008654B6 /* HeroRepresentation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AFDD28E23E3EFCE008654B6 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28923E3EA48008654B6 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		1AFDD28F23E3F022008654B6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1AFDD28B23E3EDC8008654B6 /* MyHero.xcdatamodeld */,
+				1A78B19023E3F5800085C872 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFDD27023E3E120008654B6 /* ViewController.swift in Sources */,
+				1AFDD28823E3EA0A008654B6 /* SuperHeroDetailViewController.swift in Sources */,
 				1AFDD26C23E3E120008654B6 /* AppDelegate.swift in Sources */,
+				1A78B18F23E3F20E0085C872 /* HeroController.swift in Sources */,
+				1AFDD29123E3F083008654B6 /* HeroRepresentation.swift in Sources */,
+				1AFDD28A23E3EA49008654B6 /* NetworkService.swift in Sources */,
 				1AFDD26E23E3E120008654B6 /* SceneDelegate.swift in Sources */,
+				1AFDD28D23E3EDC8008654B6 /* MyHero.xcdatamodeld in Sources */,
+				1A78B19123E3F5800085C872 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SYENEWMJ7;
-				INFOPLIST_FILE = MyHero/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyHero/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SYENEWMJ7;
-				INFOPLIST_FILE = MyHero/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyHero/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +430,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AFDD28B23E3EDC8008654B6 /* MyHero.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AFDD28C23E3EDC8008654B6 /* MyHero.xcdatamodel */,
+			);
+			currentVersion = 1AFDD28C23E3EDC8008654B6 /* MyHero.xcdatamodel */;
+			path = MyHero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1AFDD26023E3E120008654B6 /* Project object */;
 }
